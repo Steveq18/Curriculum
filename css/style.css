@@ -1,6 +1,6 @@
-/* Fondo azul solo en el encabezado */
+
 .header {
-    background-color: #185b96; /* Azul */
+    background-color: #185b96; 
     padding: 100px;
     text-align: center;
 }
