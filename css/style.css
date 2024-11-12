@@ -53,25 +53,20 @@
     color: #185b96; 
 }
 
-
 footer {
-    background-color: #39393a; 
-    color: #555353; 
-    padding: 80px;
+    background-color: #39393a; /* Gris oscuro */
+    color: #ffffff; /* Texto en blanco */
+    padding: 20px;
     text-align: center;
-
-   
 }
 
 footer a {
-    color: #525151; 
+    color: #ffffff; /* Enlaces en blanco */
     text-decoration: none;
-  
     margin: 0 5px;
 }
 
 footer a:hover {
-    color: #2f2f30; 
-   
+    color: #cce7ff; /* Color azul claro al pasar el cursor */
 }
 }
