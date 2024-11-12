@@ -54,14 +54,14 @@
 }
 
 footer {
-    background-color: #39393a; /* Gris oscuro */
-    color: #ffffff; /* Texto en blanco */
+    background-color: #39393a; 
+    color: #ffffff; 
     padding: 20px;
     text-align: center;
 }
 
 footer a {
-    color: #ffffff; /* Enlaces en blanco */
+    color: #ffffff; 
     text-decoration: none;
     margin: 0 5px;
 }
