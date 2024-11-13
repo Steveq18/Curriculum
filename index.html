@@ -13,103 +13,120 @@
         <img src="img/Image Cv .jpeg" alt="Foto de perfil" class="rounded-circle" width="100">
         <h1>Steve Quiros Lacayo</h1>
         <p>Desarrollador Front-End | Diseñador Web</p>
+        
+        <!-- Menú Desplegable -->
+        <div class="dropdown d-inline">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                Opciones
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#informacion-personal">Información Personal</a></li>
+                <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
+                <li><a class="dropdown-item" href="#experiencia-profesional">Experiencia Profesional</a></li>
+                <li><a class="dropdown-item" href="#educacion">Educación</a></li>
+                <li><a class="dropdown-item" href="#proyectos">Proyectos</a></li>
+            </ul>
+        </div>
+        
         <button class="btn btn-primary">Descargar CV</button>
     </div>
-  
 
-<div class="container">
-    <h2>Información Personal</h2>
-    <ul class="list-group">
-        <li class="list-group-item"><strong>Correo:</strong> steveql1886@gmail.com</li>
-        <li class="list-group-item"><strong>Teléfono:</strong> 6427-9918</li>
-        <li class="list-group-item"><strong>Dirección:</strong> Guanacaste, Nicoya, apartamentos Soriano, lado este del parque Recaredo Briceño</li>
-    </ul>
-</div>
+    <!-- Contenido de la Página -->
+    <div class="container" id="informacion-personal">
+        <h2>Información Personal</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Correo:</strong> steveql1886@gmail.com</li>
+            <li class="list-group-item"><strong>Teléfono:</strong> 6427-9918</li>
+            <li class="list-group-item"><strong>Dirección:</strong> Guanacaste, Nicoya, apartamentos Soriano, lado este del parque Recaredo Briceño</li>
+        </ul>
+    </div>
 
-<div class="container my-4">
-    <h2>Habilidades</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <h4>Técnicas</h4>
-            <ul class="list-group">
-                <li class="list-group-item">HTML, CSS, Bootstrap</li>
-                <li class="list-group-item">JavaScript</li>
-                <li class="list-group-item">C# y Visual Studio</li>
-                <li class="list-group-item">Bases de Datos SQL</li>
-                <li class="list-group-item">Manejo de Redes y Equipos de TI</li>
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <h4>Blandas</h4>
-            <ul class="list-group">
-                <li class="list-group-item">Comunicación efectiva</li>
-                <li class="list-group-item">Trabajo en equipo</li>
-                <li class="list-group-item">Adaptabilidad</li>
-                <li class="list-group-item">Resolución de problemas</li>
-                <li class="list-group-item">Gestión de tiempo</li>
-            </ul>
+    <div class="container my-4" id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Técnicas</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML, CSS, Bootstrap</li>
+                    <li class="list-group-item">JavaScript</li>
+                    <li class="list-group-item">C# y Visual Studio</li>
+                    <li class="list-group-item">Bases de Datos SQL</li>
+                    <li class="list-group-item">Manejo de Redes y Equipos de TI</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Blandas</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">Comunicación efectiva</li>
+                    <li class="list-group-item">Trabajo en equipo</li>
+                    <li class="list-group-item">Adaptabilidad</li>
+                    <li class="list-group-item">Resolución de problemas</li>
+                    <li class="list-group-item">Gestión de tiempo</li>
+                </ul>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="container my-4">
-    <h2>Experiencia Profesional</h2>
-    <ul class="list-group">
-        <li class="list-group-item">
-            <h5>Desarrollador de Software</h5>
-            <p>Participación en desarrollo de aplicaciones, utilizando tecnologías web y gestión de bases de datos.</p>
+    <div class="container my-4" id="experiencia-profesional">
+        <h2>Experiencia Profesional</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Desarrollador de Software</h5>
+                <p>Participación en desarrollo de aplicaciones, utilizando tecnologías web y gestión de bases de datos.</p>
+            </li>
             <li class="list-group-item">
                 <h5>Técnico en Soporte de TI</h5>
-                <p>Encargado del mantenimiento y soporte de equipos informáticos,
-                 resolución de problemas de red y asistencia en la configuración de sistemas para usuarios en el entorno empresarial.</p>
-        </li>
-    </ul>
-</div>
+                <p>Encargado del mantenimiento y soporte de equipos informáticos, resolución de problemas de red y asistencia en la configuración de sistemas para usuarios en el entorno empresarial.</p>
+            </li>
+        </ul>
+    </div>
 
-<div class="container my-4">
-    <h2>Educación</h2>
-    <ul class="list-group">
-        <li class="list-group-item">
-            <h5>Bachillerato en Educación Media</h5>
-            <p>Operador de Tecnologías de Información y Comunicación.</p>
-        </li>
-    </ul>
-</div>
+    <div class="container my-4" id="educacion">
+        <h2>Educación</h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h5>Bachillerato en Educación Media</h5>
+                <p>Operador de Tecnologías de Información y Comunicación.</p>
+            </li>
+        </ul>
+    </div>
 
-<div class="container my-4">
-    <h2>Proyectos</h2>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card">
-                <img src="./img/log autos usados.jpg" class="card-img-top" alt="Proyecto 1">
-                <div class="card-body">
-                    <h5 class="card-title">Sitio Web Venta Autos Usados</h5>
-                    <p class="card-text">Aplicación para venta y compra de autos usados  .</p>
-                    <a href="#" class="btn btn-primary">Ver proyecto</a>
+    <div class="container my-4" id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/log autos usados.jpg" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Sitio Web Venta Autos Usados</h5>
+                        <p class="card-text">Aplicación para venta y compra de autos usados.</p>
+                        <a href="#" class="btn btn-primary">Ver proyecto</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="./img/logo tienda.png" class="card-img-top" alt="Proyecto 2">
-                <div class="card-body">
-                    <h5 class="card-title">Sitio Web de Tienda</h5>
-                    <p class="card-text">Página web de venta tienda de venta de camisas.</p>
-                    <a href="#" class="btn btn-primary">Ver proyecto</a>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="./img/logo tienda.png" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Sitio Web de Tienda</h5>
+                        <p class="card-text">Página web de venta de camisas.</p>
+                        <a href="#" class="btn btn-primary">Ver proyecto</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<footer>
-    <div class="footer-name">&copy; 2024 Steve Quiros Lacayo</div>
-    <div class="footer-links">
-        <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
-        <a href="mailto:steveql1886@gmail.com">Correo</a>
-    </div>
-</footer>
 
+    <footer>
+        <div class="footer-name">&copy; 2024 Steve Quiros Lacayo</div>
+        <div class="footer-links">
+            <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+            <a href="mailto:steveql1886@gmail.com">Correo</a>
+        </div>
+    </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
