@@ -48,7 +48,7 @@
 
 .list-group-item {
     border: none;
-
+}
 .card-title {
     color: #185b96; 
 }
@@ -56,17 +56,27 @@
 footer {
     background-color: #39393a; 
     color: #ffffff; 
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
+    width: 100%;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
 }
 
 footer a {
-    color: #ffffff; 
+    color: #d1d1d1; 
     text-decoration: none;
-    margin: 0 5px;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 1.2em; 
 }
 
 footer a:hover {
-    color: #cce7ff; /* Color azul claro al pasar el cursor */
+    color: #1963c4; 
 }
-}
+
